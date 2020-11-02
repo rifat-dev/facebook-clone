@@ -1,0 +1,28 @@
+.storyItem {
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 200px;
+    box-shadow: 0px 5px 17px -7px rgb(0, 0, 0, 0.75);
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 100ms ease-in;
+}
+
+.storyItem:hover {
+    transform: scale(1.07);
+}
+
+.avater {
+    border: 5px solid #2e81f4;
+}
+
+.storyItem>h4 {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    color: white;
+}
